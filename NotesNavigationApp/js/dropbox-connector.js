@@ -1,4 +1,9 @@
-﻿function authenticateIfRequired() {
+﻿//https://www.dropbox.com/developers/blog/20
+//http://slickthought.net/post/2012/08/16/Windows-8-and-HTML-Part-5-Fetch-Data-with-WinJS.aspx
+//http://zeddylabs.com/2012/10/doing-oauth-authentication-is-easy-in-windows-8/
+//http://cgeers.com/2011/12/29/dropbox-rest-api-part-1-authentication/
+//https://www.dropbox.com/developers/core/api#request-token
+function authenticateIfRequired() {
     var oAuthHelper = new OAuthHelper();
     //RT.OAuthHelper.clearCache();
     if (oAuthHelper.isTokenExist()) {
